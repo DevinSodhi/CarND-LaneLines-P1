@@ -67,8 +67,8 @@ There are a few things that need to be taken care of to make the algorithm more 
 
 Then I saw suggestions for improvements at two different locations:
 
-	1. https://peteris.rocks/blog/extrapolate-lines-with-numpy-polyfit/
+1. https://peteris.rocks/blog/extrapolate-lines-with-numpy-polyfit/
     I moved away from polyfit to fitline functions later, but this article was crucial is making me actually think about using more cv2 functions rather than hard coding things.
-	2. A further improvement on this method was by Ottonello over at: http://ottonello.gitlab.io/selfdriving/nanodegree/lane/lines/2016/12/15/lane-lines-submitted.html who took this idea a step further with polyfit and moving averages. This was a tough one to work with because once I saw his ideas, it was hard to unsee them. I'll have to use less clues in the future.
+2. A further improvement on this method was by Ottonello over at: http://ottonello.gitlab.io/selfdriving/nanodegree/lane/lines/2016/12/15/lane-lines-submitted.html who took this idea a step further with polyfit and moving averages. This was a tough one to work with because once I saw his ideas, it was hard to unsee them. I'll have to use less clues in the future.
 
 
